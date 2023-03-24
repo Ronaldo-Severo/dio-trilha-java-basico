@@ -6,6 +6,21 @@ public class Usuario {
         System.out.println("Canal Atual? -> " + smartTv.canal);
         System.out.println("Volume Atual? -> " + smartTv.volume);
 
+        int numero = 0;
+        //++numero;
+        System.out.println("++ Numero: " + ++numero);
+        System.out.println("++ Numero: " + numero);
+        //--numero;
+        System.out.println("-- Numero: " + --numero);
+        System.out.println("-- Numero: " + numero);
+       //numero++;
+        System.out.println("Numero ++ : " + numero++);
+        System.out.println("Numero ++ : " + numero);
+        //numero--;
+        System.out.println("Numero -- : " + numero--);
+        System.out.println("Numero -- : " + numero);
+
+
         smartTv.ligar();
         System.out.println("Novo Status - TV Ligada? -> " + smartTv.ligada);
 
@@ -26,6 +41,8 @@ public class Usuario {
         smartTv.aumentarCanal();
 
         smartTv.diminuirCanal();
+
+    
 
     }
 }
